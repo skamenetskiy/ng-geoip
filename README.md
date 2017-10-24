@@ -39,7 +39,7 @@ angular
 ```
 
 ## GeoIpService
-### lookup(host:string) : Promise<GeoIpModel>
+### lookup(host:string) : Promise< GeoIpModel >
 Lookup host geo location data. If host is undefined, will search for client ip.
 
 ### setHost(host:string) : GeoIpService
