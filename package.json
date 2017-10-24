@@ -1,0 +1,22 @@
+{
+  "name": "ng-geoip",
+  "version": "1.0.0",
+  "description": "Angular service for GeoIp data",
+  "main": "ng-geoip.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run"
+  },
+  "author": "Simon Kamenetskii <even.simon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
