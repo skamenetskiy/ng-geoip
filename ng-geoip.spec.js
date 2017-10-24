@@ -54,7 +54,7 @@ describe('ng-geoip', function () {
                     .when('JSONP', 'http://freegeoip.net/json/1.2.3.4?callback=JSON_CALLBACK')
                     .respond(200, {
                         "ip":           "1.2.3.4",
-                        "country_code": "RU",
+                        "country_code": "RU"
                     });
 
                 $httpBackend.flush();
@@ -80,7 +80,7 @@ describe('ng-geoip', function () {
                     .when('JSONP', 'http://freegeoip.net/json/?callback=JSON_CALLBACK')
                     .respond(200, {
                         "ip":           "1.2.3.4",
-                        "country_code": "RU",
+                        "country_code": "RU"
                     });
 
                 $httpBackend.flush();
