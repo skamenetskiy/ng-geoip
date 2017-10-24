@@ -31,6 +31,7 @@
         GeoIpService.prototype.$$serviceHost = '//freegeoip.net/json/%host%';
         GeoIpService.prototype.lookup        = lookup;
         GeoIpService.prototype.setHost       = setHost;
+        GeoIpService.prototype.setModel      = setModel;
 
         return new GeoIpService();
 
@@ -77,8 +78,15 @@
             return this;
         }
 
+        /**
+         * @desc Set GeoIp model that will be returned in the lookup method
+         * @param model
+         * @return {GeoIpService}
+         * @this {GeoIpService}
+         */
         function setModel(model) {
             this.$$model = model;
+            return this;
         }
     }
 
